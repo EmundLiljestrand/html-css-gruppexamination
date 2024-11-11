@@ -1,10 +1,10 @@
 /*
 
 File name: style.css
-Description: Main stylesheet for the website layout and design
+Description: Main stylesheet for the website layout and design.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last uppdated: 2024-11-11
+Last updated: 2024-11-11
 Version: 1.0
 
     1. Font import
@@ -26,7 +26,7 @@ Version: 1.0
 
 /* ==== Color variables and Fonts ==== */
 :root {
-    --primary-color: #0a846e; /* Elf Green - Primary Color for backgrounds and GO-buttons. */
+    --primary-color: #0a846e; /* Elf Green - Primary Color for backgrounds and main buttons. */
     --complementary-color: #9e6d52; /* Leather - Complemenatry Color for backgrounds. */
     --warning-color: #b93857; /* Night Shadz - Warning Color for text and color for NO-buttons. */
     --background-margin-color: #fcf6fc; /* Amour - Background Margin Color. */
@@ -38,6 +38,7 @@ Version: 1.0
     --text-maven-pro-400: 400 "Maven Pro", sans-serif; /* Maven Pro font, weight 400 */
 
     --text-open-sans-700: 700 "Open Sans", sans-serif; /* Open Sans font, weight 700 */
+    --text-open-sans-600: 600 "Open Sans", sans-serif; /* Open Sans font, weight 400 */
     --text-open-sans-400: 400 "Open Sans", sans-serif; /* Open Sans font, weight 400 */
 
     --text-lato-600: 600 "Lato", sans-serif; /* Lato font, weight 600 */

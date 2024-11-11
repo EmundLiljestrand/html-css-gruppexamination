@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Planned Planthood - Mypage</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="navigation">
+                <ul class="navigation-list">
+                    <li class="navigation-links">
+                        <a href="./my_page.html">PLANER</a>
+                    </li>
+                    <li class="navigation-links">
+                        <a href="./my_page.html">HISTORIK</a>
+                    </li>
+                    <li class="navigation-links">
+                        <a href="./my_page.html">TIPS</a>
+                    </li>
+                    <li class="navigation-links">
+                        <a href="./my_page.html">LOGGA UT</a>
+                    </li>
+                </ul>
+            </nav>
+            <header class="header-mypages">
+                <img
+                    src="./assets/plannedplanthoodlogo.svg"
+                    alt="planned planthood logo" />
+                <h1 class="heading-mypages">Mina sidor</h1>
+            </header>
+            <main>
+                <h2 class="h2-mypages">Lägg till ny plantering:</h2>
+                <form>
+                    <label for="plant-name">Planta:</label>
+                    <input
+                        type="text"
+                        name="plant-name"
+                        id="plant-name"
+                        required />
+
+                    <label for="planting-date">Datum:</label>
+                    <input
+                        type="date"
+                        name="planting-date"
+                        id="planting-date" />
+
+                    <button class="button">LÄGG TILL</button>
+                </form>
+                <h2>Dina planerade planteringar:</h2>
+                <section class="planned-plants">
+                    <article class="plant-card">
+                        <figure class="plant-card-container figure-cucumber">
+                            <img src="./assets/plant.svg" alt="" />
+                        </figure>
+                        <h4 class="plant-card-name">Gurka</h4>
+                        <h5 class="plant-card-date">15 april 2024</h5>
+                        <p class="plant-card-planter">Rico Coolio</p>
+                        <button class="button plant-card-button">
+                            <span>TA BORT</span>
+                            <img
+                                src="./assets/remove_symbol.svg"
+                                alt="Ta bort"
+                                class="remove-symbol" />
+                        </button>
+                    </article>
+                </section>
+                <h2>Dina planterade planteringar:</h2>
+                <section class="planted-plants">
+                    <article class="plant-card">
+                        <figure class="plant-card-container figure-cucumber">
+                            <img src="./assets/plant.svg" alt="" />
+                        </figure>
+                        <h4 class="plant-card-name">Gurka</h4>
+                        <h5 class="plant-card-date">15 april 2024</h5>
+                        <p class="plant-card-planter">Rico Coolio</p>
+                        <button class="button plant-card-button">
+                            <span>TA BORT</span>
+                            <img
+                                src="./assets/remove_symbol.svg"
+                                alt="Ta bort"
+                                class="remove-symbol" />
+                        </button>
+                    </article>
+                    <article class="plant-card">
+                        <figure class="plant-card-container figure-cucumber">
+                            <img src="./assets/plant.svg" alt="" />
+                        </figure>
+                        <h4 class="plant-card-name">Gurka</h4>
+                        <h5 class="plant-card-date">15 april 2024</h5>
+                        <p class="plant-card-planter">Rico Coolio</p>
+                        <button class="button plant-card-button">
+                            <span>TA BORT</span>
+                            <img
+                                src="./assets/remove_symbol.svg"
+                                alt="Ta bort"
+                                class="remove-symbol" />
+                        </button>
+                    </article>
+                </section>
+            </main>
+            <footer class="footer-mypages background-color-complementary">
+                <img
+                    src=""
+                    alt="man picking pepper"
+                    class="footer-mypages-img" />
+                <img
+                    src=""
+                    alt="watering can watering plants"
+                    class="footer-mypages-img" />
+                <img
+                    src=""
+                    alt="vegetables in baskets"
+                    class="footer-mypages-img" />
+                <img
+                    src=""
+                    alt="two people picking vegetables"
+                    class="footer-mypages-img" />
+            </footer>
+            <a class="back-to-top-link" href="#">Till toppen av sidan</a>
+        </div>
+    </body>
+</html>

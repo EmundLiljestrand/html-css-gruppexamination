@@ -1,0 +1,47 @@
+-----PLANED PLANTHOOD-----
+
+This website is designed to provide a simple solution for organizing and tracking which plants should be sown on specific days during the planting season.
+
+The tool aims to streamline the planting process, ensuring that each plant is sown at the optimal time - offering an easy-to-use interface, the website helps to maintain order in the gardening schedule, improving collaboration and productivity.
+
+----------------------------------------------------------------
+
+-----HTML-----
+
+File name: index.html
+Description: Planed Planthood - Main Page.
+Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
+Created: 2024-11-11
+Last updated: 2024-11-11
+Version: 1.0
+
+File name: my_page.html
+Description: Planed Planthood - My Page.
+Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
+Created: 2024-11-11
+Last updated: 2024-11-11
+Version: 1.0
+
+----------------------------------------------------------------
+
+-----CSS-----
+
+File name: style.css
+Description: Main stylesheet for the website layout and design.
+Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
+Created: 2024-11-11
+Last updated: 2024-11-11
+Version: 1.0
+
+----------------------------------------------------------------
+
+----DOCUMENTATION----
+
+2024-11-11
+* Created CSS variables (fonts and color).
+* Created HTML structure for index.html and my_page.html.
+
+NEXT UP: Basic styling in CSS. Filip starts
+
+----------------------------------------------------------------
+
