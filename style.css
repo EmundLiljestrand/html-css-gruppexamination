@@ -1,0 +1,45 @@
+/*
+
+File name: style.css
+Description: Main stylesheet for the website layout and design
+Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
+Created: 2024-11-11
+Last uppdated: 2024-11-11
+Version: 1.0
+
+    1. Font import
+    2. Reset / Normalize
+    3. Variables
+    4. Basic styling
+    5. Content Layout and Styling (grid, flexbox)
+
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ==== Reset and Normalize ==== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==== Color variables and Fonts ==== */
+:root {
+    --primary-color: #0a846e; /* Elf Green - Primary Color for backgrounds and GO-buttons. */
+    --complementary-color: #9e6d52; /* Leather - Complemenatry Color for backgrounds. */
+    --warning-color: #b93857; /* Night Shadz - Warning Color for text and color for NO-buttons. */
+    --background-margin-color: #fcf6fc; /* Amour - Background Margin Color. */
+    --background-color: #ffffff; /* White - Background Color. */
+    --dark-text-color: #1e1e1e; /* Cod Gray - Dark Text Color. */
+    --light-text-color: #ffffff; /* White - Light Text Color against dark background. */
+
+    --text-maven-pro-500: 500 "Maven Pro", sans-serif; /* Maven Pro font, weight 500 */
+    --text-maven-pro-400: 400 "Maven Pro", sans-serif; /* Maven Pro font, weight 400 */
+
+    --text-open-sans-700: 700 "Open Sans", sans-serif; /* Open Sans font, weight 700 */
+    --text-open-sans-400: 400 "Open Sans", sans-serif; /* Open Sans font, weight 400 */
+
+    --text-lato-600: 600 "Lato", sans-serif; /* Lato font, weight 600 */
+    --text-lato-300: 300 "Lato", sans-serif; /* Lato font, weight 300 */
+}
