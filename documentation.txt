@@ -12,14 +12,14 @@ File name: index.html
 Description: Planed Planthood - Main Page.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-11
+Last updated: 2024-11-12
 Version: 1.0
 
 File name: my_page.html
 Description: Planed Planthood - My Page.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-11
+Last updated: 2024-11-12
 Version: 1.0
 
 ----------------------------------------------------------------
@@ -30,7 +30,7 @@ File name: style.css
 Description: Main stylesheet for the website layout and design.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-11
+Last updated: 2024-11-12
 Version: 1.0
 
 ----------------------------------------------------------------
@@ -43,5 +43,12 @@ Version: 1.0
 
 NEXT UP: Basic styling in CSS. Filip starts
 
-----------------------------------------------------------------
+---------------------
 
+2024-11-12
+*
+*
+
+NEXT UP: 
+
+---------------------

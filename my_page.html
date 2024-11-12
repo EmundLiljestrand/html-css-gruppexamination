@@ -25,6 +25,13 @@
                 </ul>
             </nav>
             <header class="header-mypages">
+                <!-- Hamburger menu -->
+                <input type="checkbox" class="burger" id="burger" />
+                <label class="burger-btn" for="burger">
+                    <span class="line-01"></span>
+                    <span class="line-02"></span>
+                    <span class="line-03"></span>
+                </label>
                 <img
                     src="./assets/plannedplanthoodlogo.svg"
                     alt="planned planthood logo" />
@@ -44,7 +51,7 @@
                     <input
                         type="date"
                         name="planting-date"
-                        id="planting-date" />
+                        id="planting-date" required/>
 
                     <button class="button">LÄGG TILL</button>
                 </form>
