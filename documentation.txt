@@ -37,7 +37,7 @@ Version: 1.1
 
 ----DOCUMENTATION----
 
-2024-11-11
+2024-11-11 [Monday]
 * Created CSS variables (fonts and color).
 * Created HTML structure for index.html and my_page.html.
 
@@ -45,10 +45,13 @@ NEXT UP: Basic styling in CSS. Filip starts
 
 ---------------------
 
-2024-11-12
-* CSS styling for the whole page.
-* 
+2024-11-12 [Tuesday]
+* CSS styling for main section 
+* Edited HTML slightly for styling possibilities
 
-NEXT UP: 
+NEXT UP: Style footer, 
+        Add box shadow to svg pictures to the right in the header (the big one got already).
+        Filip starts?
+        Sorry for pushing alone!
 
 ---------------------
