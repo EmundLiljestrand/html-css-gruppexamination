@@ -72,7 +72,36 @@ h1 {
 }
 
 h2 {
-    flex-shrink: 0;
+    font-family: var(--text-open-sans);
+}
+
+h3 {
+    font-family: var(--text-lato);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: var(--text-open-sans);
+}
+
+.button {
+    align-self: flex-end;
+    border: none;
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    padding: 1rem 3rem;
+    box-shadow: 0 5px 6px 1px #0000001c;
+    font-family: var(--text-open-sans);
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(0.95); /* Gör knappen 5% mindre */
 }
 
 /* ==== Header Component ==== */
@@ -151,9 +180,6 @@ main {
 .main-article-section {
     margin-top: 2rem;
     display: flex;
-
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
 }
 
 .main-figure-container {
@@ -161,19 +187,38 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 999rem;
-    aspect-ratio: 1;
-    margin-right: 4rem;
-    min-width: 400px;
+    margin-right: 3rem;
 }
 
 .main-figure-container > img {
-    padding: 20%;
-    width: 100%;
-    height: auto;
+    margin: 3rem;
+    padding: 3rem;
 }
 
 .sowing-tips {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
 }
+
+.sowing-tips > h2 {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.sowing-tips > p {
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+/* Button is styled in "basic - styling" -part of code */
+hr {
+    height: 3px;
+    margin: 5rem 0;
+    width: 40%;
+    background-color: #055647;
+    border-radius: 999rem;
+    border: none;
+}
+
+/* h3 is styled in "basic - styling" -part of code */
