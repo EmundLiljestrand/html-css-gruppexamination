@@ -153,6 +153,7 @@ hr {
     position: sticky;
     background-color: var(--background-color);
     top: 0;
+    z-index: 999;
 }
 
 .navigation-list {
@@ -166,7 +167,7 @@ hr {
 }
 
 .navigation-links > a {
-    padding: calc(1rem - 2px) 2rem;
+    padding: calc(1rem - 2px) 1.5rem;
     text-decoration: none;
     font-family: var(--text-maven-pro);
     font-weight: 500;
@@ -190,7 +191,9 @@ main {
 
 .main-article-section {
     margin-top: 2rem;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
 
 .main-figure-container {
@@ -198,15 +201,15 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 999rem;
-    margin-right: 3rem;
     min-width: 30%;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .main-figure-container > img {
-    padding: 20%;
+    padding: 25%;
     width: 100%;
+    aspect-ratio: 1;
 }
 
 .sowing-tips {
@@ -214,7 +217,7 @@ main {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    min-width: 40ch;
+    min-width: 20ch;
 }
 
 .sowing-tips > h2 {
@@ -222,7 +225,8 @@ main {
     font-size: 2rem;
 }
 
-.sowing-tips > p {
+.sowing-tips p,
+.previous-plants p {
     font-weight: 400;
     padding-bottom: 1rem;
 }
@@ -231,3 +235,110 @@ main {
 /* hr is styled in "basic - styling" -part of code */
 
 /* h3 is styled in "basic - styling" -part of code */
+
+.plant-card-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.plant-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 3px 4px 4px 0 #03382f1c;
+}
+
+.plant-card-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+
+.plant-card-name {
+    min-width: 13ch;
+    font-family: var(--text-lato);
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.plant-card-date {
+    min-width: 15ch;
+    text-align: right;
+    font-family: var(--text-open-sans);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.plant-card-planter {
+    font-family: var(--text-lato);
+    font-size: 1rem;
+    font-weight: 300;
+    min-width: 15ch;
+    padding: 1rem;
+}
+
+.plant-card-button {
+    background-color: var(--warning-color);
+    font-size: 0.8rem;
+    padding: 0.3rem 0.9rem;
+    margin: 0.8rem;
+}
+
+.plant-card-button > img {
+    display: none;
+}
+
+/* ==== Card Imag ==== */
+.figure-cucumber {
+    background-image: url("https://images.unsplash.com/photo-1518568403628-df55701ade9e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.figure-tomato-1 {
+    background-image: url("https://images.unsplash.com/photo-1596199050105-6d5d32222916?q=80&w=2639&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.figure-tomato-2 {
+    background-image: url("https://images.unsplash.com/photo-1565698228480-eec300c9679b?q=80&w=2806&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.figure-sugarcane {
+    background-image: url("https://images.unsplash.com/photo-1687878269804-63e8b50e3ddc?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.figure-turnip {
+    background-image: url("https://images.unsplash.com/photo-1555447740-03e40562af94?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+.figure-squash {
+    background-image: url("https://images.unsplash.com/photo-1627989230968-d0b8e2d1a398?q=80&w=2962&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.show-more-button {
+    font-weight: 600;
+    align-self: center;
+    margin-top: 4rem;
+}
+
+.previous-plants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    min-width: 20ch;
+}
+
+.previous-plants-button {
+    align-self: flex-start;
+}
+
+/* FOOTER IMAGE
+https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
