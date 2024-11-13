@@ -42,27 +42,33 @@
             </header>
             <main>
                 <h2 class="h2-mypages">Lägg till ny plantering:</h2>
-                <form>
-                    <label for="plant-name">Planta:</label>
-                    <input
+                <form class="add-plant-form">
+                    <label class="label-form" for="plant-name">Planta: 
+                        <input
                         type="text"
                         name="plant-name"
                         id="plant-name"
                         required
                     />
+                </label>
+                   
 
-                    <label for="planting-date">Datum:</label>
-                    <input
+                    <label class="label-form" for="planting-date">Datum:<input
                         type="date"
                         name="planting-date"
                         id="planting-date"
                         required
-                    />
+                    /></label>
+                    
 
                     <button class="button">LÄGG TILL</button>
                 </form>
+
+
                 <h3>Dina planerade planteringar:</h3>
-                <section class="planned-plants">
+
+
+                <section class="planned-plants plant-card-section">
                     <article class="plant-card">
                         <figure class="plant-card-container figure-cucumber">
                             <img src="./assets/plant.svg" alt="" />
@@ -117,13 +123,13 @@
                 </section>
             </main>
             <footer class="footer-mypages background-color-complementary">
-                <section class="footer-images-left-upper">
+                <section>
                 <figure class="footer-mypages-img-1">
                 </figure>
                 <figure class="footer-mypages-img-2">
                 </figure>
                 </section>
-                <section class="footer-images-right-lower">
+                <section>
                 <figure class="footer-mypages-img-3">
                 </figure>
                 <figure class="footer-mypages-img-4">

@@ -38,6 +38,7 @@ Version: 1.2
 ----DOCUMENTATION----
 
 2024-11-11 [Monday]
+
 * Created CSS variables (fonts and color).
 * Created HTML structure for index.html and my_page.html.
 
@@ -46,6 +47,7 @@ NEXT UP: Basic styling in CSS. Filip starts
 ---------------------
 
 2024-11-12 [Tuesday]
+
 * CSS styling for main section 
 * Edited HTML slightly for styling possibilities
 
@@ -57,9 +59,13 @@ NEXT UP: Style footer,
 ---------------------
 
 2024-11-13 [Wednesday]
-*  
-* 
 
-NEXT UP: 
+*  CSS styling for desktop done!
+*  Edited HTML slightly for styling possibilities
+*  Made the CSS responsive to som degree
+
+NEXT UP:  Media-queries to scale down to mobile
+          Start with screen width 390px
+          Emund starts
 
 ---------------------
