@@ -55,6 +55,7 @@ body {
     margin-inline: auto;
     background-color: var(--background-color);
     box-shadow: 0 2px 2px 0 #03382f1c;
+    margin-bottom: 2rem;
 }
 
 .background-color-primary {
@@ -111,7 +112,7 @@ hr {
 }
 
 .button:hover {
-    transform: scale(0.95); /* Gör knappen 5% mindre */
+    transform: scale(0.95); /* makes the button 5% smaller */
 }
 
 /* ==== Header Component ==== */
@@ -139,9 +140,11 @@ hr {
 .header-figure-container > img {
     padding: 2rem;
     max-height: 250px;
+
+    filter: drop-shadow(2px 2px 2px rgba(19, 19, 19, 0.5));
 }
 
-/* INSERT BURGER MENU */
+/* INSERT BURGER MENU !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .burger {
     display: none;
 }
@@ -163,7 +166,6 @@ hr {
     padding: 1rem;
     list-style: none;
     box-shadow: 0 4px 4px 0 #03382f1c;
-    transition: all 0.5s ease-in-out;
 }
 
 .navigation-links > a {
@@ -174,10 +176,13 @@ hr {
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
     color: var(--primary-color);
+    border-bottom: 2px solid transparent; /* transparent border for animation*/
+    transition: all 0.15s ease-in-out; /* animation for the border */
 }
 
 .navigation-links > a:hover {
     border-bottom: 2px solid var(--primary-color);
+    transform: translateY(-2px) scale(1.05); /* animation for the border*/
 }
 
 /* ==== Main Content ==== */
@@ -300,7 +305,7 @@ main {
     display: none;
 }
 
-/* ==== Card Imag ==== */
+/* ==== Card Image ==== */
 .figure-cucumber {
     background-image: url("https://images.unsplash.com/photo-1518568403628-df55701ade9e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
@@ -340,5 +345,69 @@ main {
     align-self: flex-start;
 }
 
-/* FOOTER IMAGE
-https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D */
+/* ==== Footer Section =====*/
+
+.footer-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url("https://images.unsplash.com/photo-1586281010691-f9da4be5b1f7?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+}
+
+.contact-info {
+    background-color: rgba(17, 17, 17, 0.8);
+    color: var(--light-text-color);
+    font-family: var(--text-maven-pro);
+    position: relative;
+}
+
+.footer-title {
+    font-size: 4rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-links {
+    color: var(--light-text-color);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: absolute;
+    padding: 1rem;
+}
+
+.link-left {
+    bottom: 0;
+}
+
+.link-right {
+    bottom: 0;
+    right: 0;
+}
+
+.footer-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==== Back To Top Link ===== */
+
+.back-to-top-link {
+    width: 100%;
+    text-align: center;
+    color: var(--dark-text-color);
+    text-decoration: none;
+    font-family: var(--text-open-sans);
+    font-weight: 500;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 4px 0#03382f1c;
+    padding: 1.5rem;
+}
