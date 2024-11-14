@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="sv">
     <head>
+        <!-- Metadata for language settings, character encoding, responsive design, and page title -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Planned Planthood - Mypage</title>
@@ -8,29 +9,30 @@
     </head>
     <body>
         <div class="wrapper">
+            <!-- Navigation menu -->
             <nav class="navigation">
                 <ul class="navigation-list">
+                    <!-- Menu links -->
                     <li class="navigation-links">
                         <a href="./my_page.html">PLANER</a>
                     </li>
                     <li class="navigation-links">
-                        <a href="./my_page.html">HISTORIK</a>
+                        <a href="./index.html">HISTORIK</a>
                     </li>
                     <li class="navigation-links">
-                        <a href="./my_page.html">TIPS</a>
+                        <a href="./index.html">TIPS</a>
                     </li>
                     <li class="navigation-links">
-                        <a href="./my_page.html">LOGGA UT</a>
+                        <a href="./index.html">LOGGA UT</a>
                     </li>
                 </ul>
             </nav>
+            <!-- Page header -->
             <header class="header-mypages">
-                <!-- Hamburger menu -->
+                <!-- Hamburger menu for mobile navigation -->
                 <input type="checkbox" class="burger" id="burger" />
                 <label class="burger-btn" for="burger">
                     <span class="line-01"></span>
-                    <span class="line-02"></span>
-                    <span class="line-03"></span>
                 </label>
             <figure>
                 <img
@@ -51,31 +53,29 @@
                         required
                     />
                 </label>
-                   
-
                     <label class="label-form" for="planting-date">Datum:<input
                         type="date"
                         name="planting-date"
                         id="planting-date"
                         required
                     /></label>
-                    
-
                     <button class="button">LÄGG TILL</button>
                 </form>
 
-
+                <!-- Section to display planned plantings -->
                 <h3>Dina planerade planteringar:</h3>
-
-
                 <section class="planned-plants plant-card-section">
                     <article class="plant-card">
                         <figure class="plant-card-container figure-cucumber">
                             <img src="./assets/plant.svg" alt="" />
                         </figure>
+                        <aside class="aside-card-top">
                         <h4 class="plant-card-name">Gurka</h4>
                         <h5 class="plant-card-date">15 april 2024</h5>
+                        </aside>
+                        <aside class="aside-card-bot">
                         <p class="plant-card-planter">Rico Coolio</p>
+                        
                         <button class="button plant-card-button">
                             <span>TA BORT</span>
                             <img
@@ -84,16 +84,22 @@
                                 class="remove-symbol"
                             />
                         </button>
+                        </aside>
                     </article>
                 </section>
+
+                 <!-- Section for planted plantings -->
                 <h3>Dina planterade planteringar:</h3>
                 <section class="planted-plants plant-card-section">
                     <article class="plant-card">
                         <figure class="plant-card-container figure-cucumber">
                             <img src="./assets/plant.svg" alt="" />
                         </figure>
+                        <aside class="aside-card-top">
                         <h4 class="plant-card-name">Gurka</h4>
                         <h5 class="plant-card-date">15 april 2024</h5>
+                        </aside> 
+                        <aside class="aside-card-bot">
                         <p class="plant-card-planter">Rico Coolio</p>
                         <button class="button plant-card-button">
                             <span>TA BORT</span>
@@ -103,13 +109,17 @@
                                 class="remove-symbol"
                             />
                         </button>
+                    </aside>
                     </article>
                     <article class="plant-card">
                         <figure class="plant-card-container figure-cucumber">
                             <img src="./assets/plant.svg" alt="" />
                         </figure>
+                        <aside class="aside-card-top">
                         <h4 class="plant-card-name">Gurka</h4>
                         <h5 class="plant-card-date">15 april 2024</h5>
+                        </aside>
+                         <aside class="aside-card-bot">
                         <p class="plant-card-planter">Rico Coolio</p>
                         <button class="button plant-card-button">
                             <span>TA BORT</span>
@@ -119,9 +129,11 @@
                                 class="remove-symbol"
                             />
                         </button>
+                        </aside>
                     </article>
                 </section>
             </main>
+            <!-- Footer section -->
             <footer class="footer-mypages background-color-complementary">
                 <section>
                 <figure class="footer-mypages-img-1">
@@ -136,6 +148,7 @@
                 </figure>
                 </section>
             </footer>
+            <!-- Back to top link -->
             <a class="back-to-top-link" href="#">Till toppen av sidan</a>
         </div>
     </body>

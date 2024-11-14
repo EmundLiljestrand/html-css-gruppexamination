@@ -12,15 +12,15 @@ File name: index.html
 Description: Planed Planthood - Main Page.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-13
-Version: 1.2
+Last updated: 2024-11-14
+Version: 1.3
 
 File name: my_page.html
 Description: Planed Planthood - My Page.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-13
-Version: 1.2
+Last updated: 2024-11-14
+Version: 1.3
 
 ----------------------------------------------------------------
 
@@ -30,8 +30,8 @@ File name: style.css
 Description: Main stylesheet for the website layout and design.
 Author: Filip Jernberg, David Åkerlind, Emund Liljestrand. 
 Created: 2024-11-11
-Last updated: 2024-11-13
-Version: 1.2
+Last updated: 2024-11-14
+Version: 1.3
 
 ----------------------------------------------------------------
 
@@ -53,8 +53,7 @@ NEXT UP: Basic styling in CSS. Filip starts
 
 NEXT UP: Style footer, 
         Add box shadow to svg pictures to the right in the header (the big one got already).
-        Filip starts?
-        Sorry for pushing alone!
+        Filip starts
 
 ---------------------
 
@@ -67,5 +66,13 @@ NEXT UP: Style footer,
 NEXT UP:  Media-queries to scale down to mobile
           Start with screen width 390px
           Emund starts
+
+---------------------
+
+2024-11-14 [Thursday]
+
+*  Media queries for index.html done!
+*  Edited HTML slightly for styling possibilities (index.html and my_page.html)
+*  Added comments for overall HTML structure and validated (index.html, my_page.html and style.css)
 
 ---------------------
